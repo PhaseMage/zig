@@ -1119,7 +1119,7 @@ pub const Scope = struct {
         /// Whether this is populated depends on `status`.
         stat_inode: std.fs.File.INode,
         /// Whether this is populated depends on `status`.
-        stat_mtime: i128,
+        stat_mtime: u96,
         /// Whether this is populated or not depends on `tree_loaded`.
         tree: Ast,
         /// Whether this is populated or not depends on `zir_loaded`.
